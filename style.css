@@ -1,0 +1,63 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.flexible-area{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+#heading{
+    font-size: 60px;
+}
+
+span{
+    color: orange;
+}
+
+p{
+    padding-right: 50px;
+}
+
+.half-width{
+    width: 45%;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.half-width img{
+    height: 90%;
+    width: 90%;
+}
+
+.writting-half{
+    margin-top: 35px;
+}
+
+#first-paragraph{
+    color: gray;
+}
+
+a{
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 50px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+#second-section{
+    background-image: url(images/background-1.png);
+    background-repeat: no-repeat;
+}
+
+#second-img{
+    height: 550px;
+    width: 400px;
+}
+
