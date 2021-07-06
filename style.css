@@ -61,3 +61,26 @@ a{
     width: 400px;
 }
 
+#recipie-section div{
+    padding: 10px 300px;
+    text-align: center;
+}
+
+#food-section{
+    margin: 5px 80px;
+    display: flex;
+}
+
+.food-area{
+    width: 33%;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px lightgray;
+}
+
+#food-section img{
+    height: 60%;
+    width: 100%;
+}
+
