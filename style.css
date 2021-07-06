@@ -111,6 +111,7 @@ a{
     padding: 2%;
     border-radius: 30px;
     box-shadow: 5px 5px 20px lightgray;
+    padding-bottom: 25px;
 }
 
 #subscribers-area{
