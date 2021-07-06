@@ -10,6 +10,7 @@ body{
 
 #heading{
     font-size: 60px;
+    color: rgb(107, 107, 107);;
 }
 
 span{
@@ -27,12 +28,12 @@ p{
 }
 
 .half-width img{
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
 }
 
 .writting-half{
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 #first-paragraph{
@@ -40,15 +41,21 @@ p{
 }
 
 a{
-    height: 40px;
+    height: 50px;
     text-decoration: none;
     color: white;
     font-weight: 500;
+    font-size: 22px;
     background-image: linear-gradient(lightsalmon, tomato);
-    padding: 10px 50px;
-    border-radius: 30px;
+    padding: 22px 50px 5px 50px;
+    border-radius: 50px;
     display: inline-block;
     margin-top: 35px;
+}
+
+.section-heading{
+    font-size: 40px;
+    color: rgb(107, 107, 107);
 }
 
 #second-section{
@@ -71,16 +78,54 @@ a{
     display: flex;
 }
 
-.food-area{
-    width: 33%;
-    margin: 2%;
-    padding: 2%;
-    border-radius: 15px;
-    box-shadow: 5px 5px 20px lightgray;
-}
-
 #food-section img{
     height: 60%;
     width: 100%;
 }
 
+.food-area{
+    width: 33%;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px lightgray;
+}
+
+#subscribers-area{
+    display: flex;
+    height: 225px;
+    margin: 100px 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px lightgray;
+    align-items: center;
+}
+
+#subscribers-area div{
+    width: 30%;
+    margin-left: 10%;
+}
+
+#subscribers-area h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: black;
+    height: 250px;
+    
+}
+
+footer h1{
+    padding-top: 35px;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding-left: 50px;
+}
+#network{
+    color: gray;
+}
