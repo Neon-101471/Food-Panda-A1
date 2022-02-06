@@ -4,30 +4,33 @@ body{
 }
 
 #nav-area{
-    height: 120px;
+    height: 90px;
     background-color: lightblue;
 }
 
-#home-button{
+#nav-area-button{
     text-align: center;
-    padding-top: 40px;
+    padding-top: 25px;
 }
 
-#home-button span{
+#nav-area-button span{
     color: black;
-    font-size: 25px;
-    margin-right: 30px;
+    font-size: 24px;
+    margin-right: 25px;
     margin-left: 5px;
 	cursor: pointer;
 }
 
-#home-button span:hover{
+#nav-area-button span:hover{
     color: white;
 }
 
 .flexible-area{
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #heading{
@@ -39,14 +42,21 @@ span{
     color: tomato;
 }
 
-p{
-    padding-right: 50px;
-}
-
 .half-width{
     width: 45%;
     margin-left: 5%;
     padding: 2%;
+}
+
+.about-left{
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.about-right {
+    width: 54%;
+    margin: 2%;
 }
 
 .half-width img{
@@ -55,11 +65,11 @@ p{
 }
 
 .writting-half{
-    margin-top: 40px;
+    padding-top: 30px;
 }
 
 .writting-half a:hover{
-    opacity: 0.8;
+    opacity: 0.75;
 }
 
 #first-paragraph{
@@ -67,15 +77,15 @@ p{
 }
 
 a{
-    height: 50px;
+    display: inline-block;
+    height: 45px;
     text-decoration: none;
     color: white;
     font-weight: 500;
     font-size: 22px;
     background-image: linear-gradient(to right,lightsalmon, tomato);
     padding: 22px 50px 5px 50px;
-    border-radius: 50px;
-    display: inline-block;
+    border-radius: 10px;
     margin-top: 35px;
 }
 
@@ -85,9 +95,10 @@ a{
 }
 
 #about-me-section{
-    background-image: url(images/background-1.png);
+    background-image: url(images/Frame\ 55.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    text-align: justify;
 }
 
 #second-img{
@@ -95,11 +106,17 @@ a{
     width: 400px;
 }
 
+/* Recipie styles */
 #recipie-section div{
     padding: 10px 300px;
     text-align: center;
 }
 
+#recipie-section p {
+    text-align: justify;
+}
+
+/* Food area styles */
 #food-section{
     margin: 5px 80px;
     display: flex;
@@ -120,10 +137,15 @@ a{
     padding-bottom: 50px;
 }
 
+.food-area p {
+    text-align: justify;
+}
+
+/* Subscribers styles */
 #subscribers-area{
     display: flex;
     height: 225px;
-    margin: 100px 100px;
+    margin: 75px 100px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px lightgray;
     align-items: center;
@@ -139,6 +161,27 @@ a{
     margin-bottom: 5px;
 }
 
+/* Food gallery styles */
+.food-gallery h1{
+    text-align: center;
+}
+
+.food-gallery {
+    width: 95%;
+    padding-bottom: 25px;
+}
+
+.food-gallery div img {
+    width: 240px;
+    height: 200px;
+}
+
+.food-image-gallery {
+    text-align: center;
+    justify-content: center;
+}
+
+/* Footer styles */
 footer{
     background-color: black;
     height: 250px;
@@ -154,7 +197,13 @@ footer p{
     color: white;
     text-align: center;
     padding-left: 50px;
+    margin-top: -20px;
 }
+
 #network{
     color: gray;
+}
+
+.copyright-area {
+    margin-top: 110px;
 }
